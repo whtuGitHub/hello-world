@@ -1,9 +1,10 @@
 # hello-world
 
-A small Python project with two tkinter desktop applications:
+A small Python project with three tkinter desktop applications:
 
 - `catsim_gui.py`: a CatSim v4 document-driven interface built from `User manual-EN.doc`, `Modelling Technical Manual-EN-Mark.doc`, and `doc-analysis.md`.
 - `snake.py`: a classic Snake game.
+- `tank_battle.py`: a classic Tank Battle / Battle City-style game.
 
 ## Run the CatSim document interface
 
@@ -18,6 +19,22 @@ The CatSim interface summarizes the documented Calibrate/Predict workflow, model
 ```bash
 python3 snake.py
 ```
+
+## Run the Tank Battle game
+
+```bash
+python3 tank_battle.py
+```
+
+## Tank Battle controls
+
+- Arrow keys or `W`/`A`/`S`/`D`: move your tank
+- `Space`: fire
+- `P`: pause or resume
+- `R`: restart
+- `Esc`: quit
+
+Destroy enemy tanks, break brick walls, protect the base marked with a star, and avoid enemy fire. Steel blocks cannot be destroyed.
 
 ## Snake controls
 
